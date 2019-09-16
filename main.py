@@ -147,4 +147,4 @@ print('Score (Mean Accuracy): ', lr_model.score(test_X, test_y))
 # Persist result in the submission CSV file
 submission_result = test_df.filter(items=['TransactionID']).copy()
 submission_result['isFraud'] = predictions[:, 1]
-submission_result[['TransactionID', 'isFraud']].to_csv('submission-lr.csv', index=False)
+submission_result[['TransactionID', 'isFraud']].to_csv(f'{ASSETS_PATH}submission-lr.csv', index=False)
