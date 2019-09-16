@@ -129,9 +129,9 @@ lr_model = LogisticRegression(solver='saga', max_iter=50, tol=1e-6, n_jobs=8, ve
 lr_model.fit(train_X, train_y)
 
 # Store & load the model
-# with open(f'{ASSETS_PATH}lr_model.pickle', 'wb') as file:
+# with open('artifacts/lr_model.pickle', 'wb') as file:
 #     pickle.dump(lr_model, file, protocol=pickle.HIGHEST_PROTOCOL)
-# with open(f'{ASSETS_PATH}lr_model.pickle', 'rb') as file:
+# with open('artifacts/lr_model.pickle', 'rb') as file:
 #     lr_model = pickle.load(file)
 
 # Predict frauds

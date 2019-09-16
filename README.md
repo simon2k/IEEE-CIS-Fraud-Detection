@@ -16,8 +16,8 @@ Run `python main.py` to execute the model and predictions.
 
 ### ProductCD to fraud relation
 
-![](assets/product-cd-to-fraud-relation.png)
+![](artifacts/product-cd-to-fraud-relation.png)
 
 ### Amount to fraud relation
 
-![](assets/amount-to-fraud-relation.png)
+![](artifacts/amount-to-fraud-relation.png)
